@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <h1>Browser Web APIs: Forms</h1>
+
+    <input id="number" min="50" max="100" required type="number">
+    <button onclick="doValidation()">Es correcto el numero?</button>
+
+    <p>Si el numero es menor a 50 o mayor a 100 el error sera: </p>
+    <p id="error"></p>
+
+    <input id="name" required type="text">
+    <button onclick="doValidation2()">Es correctoel nombre?</button>
+
+    <p>Ingresa un nombre valido: </p>
+    <p id="error2"></p><br><br>
+
+    <button onclick="gobackx2()">Atras dos veces</button><br>
+    <button onclick="goBack()">Atras</button><br>
+    <button onclick="goFrorward()">Adelante</button><br>
+    <button onclick="goForwardx2()">Adelante dos veces</button><br>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
